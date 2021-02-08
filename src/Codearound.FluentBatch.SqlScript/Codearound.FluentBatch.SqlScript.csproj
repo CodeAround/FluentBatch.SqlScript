@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>CodeAround.it</Company>
+    <Product>Codearound.FluentBatch.SqlScript</Product>
+    <Authors>CodeAround.it</Authors>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Copyright>Copyright (c) 2019-2022 Codearound.it</Copyright>
+    <PackageProjectUrl>http://www.codearound.it</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CodearoundHub/Codearound.FluentBatch.SqlScript</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Fluent Batch Batching WorkTask Workflow SqlScript Script</PackageTags>
+    <Description>Extension of CodeAround.FluentBatch library (https://www.nuget.org/packages/CodeAround.FluentBatch/) to add an sql script destination work task. This work task allows to create a script for insert, update and delete statement</Description>
+    <PackageReleaseNotes>Release 1.0.5
+This release include:
+- fix single quote
+
+Release 1.0.3
+This release include:
+- Add File Behavior that append on exisisting file instead of create new file
+
+Release 1.0.2
+This release include:
+- Fix work task name
+- Fix filename gen
+
+Release 1.0.1
+
+This release include:
+- now you can specify other fixed fields not included in the table using Func. Each Func is executed for each row
+
+Release 1.0.0
+
+The release included :
+- This is a extension of CodeAround.FluentBatch to allow to script some data in a sql script
+- Allow to script
+	- Insert statement
+	- Update statement
+	- Delete statement
+	- Manage identity 
+	- Manage truncate before Insert/Update/Delete
+	- Using FormatProvider to format the value</PackageReleaseNotes>
+    <PackageIcon>fluent_batch_logo_sqlscript_64.png</PackageIcon>
+    <Version>1.0.5</Version>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="nuget\fluent_batch_logo_sqlscript_64.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="CodeAround.FluentBatch" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

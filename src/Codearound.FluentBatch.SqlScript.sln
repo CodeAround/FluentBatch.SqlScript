@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codearound.FluentBatch.SqlScript", "Codearound.FluentBatch.SqlScript\Codearound.FluentBatch.SqlScript.csproj", "{C9B11D59-6039-4511-AB50-2D2E783FF2F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codearound.FluentBatch.SqlScript.Test", "Codearound.FluentBatch.SqlScript.Test\Codearound.FluentBatch.SqlScript.Test.csproj", "{58CA92B7-53FC-4940-9B31-B3006627DCBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B11D59-6039-4511-AB50-2D2E783FF2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B11D59-6039-4511-AB50-2D2E783FF2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B11D59-6039-4511-AB50-2D2E783FF2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B11D59-6039-4511-AB50-2D2E783FF2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CA92B7-53FC-4940-9B31-B3006627DCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CA92B7-53FC-4940-9B31-B3006627DCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CA92B7-53FC-4940-9B31-B3006627DCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CA92B7-53FC-4940-9B31-B3006627DCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3BBCBC1-6225-4376-8385-86D24E17994D}
+	EndGlobalSection
+EndGlobal
